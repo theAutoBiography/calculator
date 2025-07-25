@@ -19,6 +19,7 @@ def calculator():
                 result = number1 * num2
             elif operation == "divide":
                 result = number1 / num2 if num2 != 0 else "Error: Division by zero"
+
         except ValueError:
             result = "Error: Invalid input"
 
